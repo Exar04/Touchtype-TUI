@@ -18,6 +18,7 @@ var (
 )
 
 func StartTypingGame(cmd *cobra.Command, arg []string) {
+
 	initialModel := typingmodel{
 		TargetWord: "programming", // Change this to the word you want users to type
 	}
