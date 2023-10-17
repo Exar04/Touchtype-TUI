@@ -5,6 +5,7 @@ import tea "github.com/charmbracelet/bubbletea"
 type typingmodel struct {
 	TargetWord string
 	TypedWord  string
+    DisplayedText string
 }
 
 type message string
